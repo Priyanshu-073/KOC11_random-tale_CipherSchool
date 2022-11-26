@@ -1,0 +1,32 @@
+import random
+
+print("STORY-:Thinking Out of the Box")
+
+years=["hundreds of years ago","many years back","long time back"]
+
+places=["Florencian","Romanian","Milanian"]
+
+feature=["very old"," unattractive"]
+
+dl=["pact","deal","contract"]
+
+moral=["through out of the box thinking","with open minded thinking"]
+
+randomyears=random.choice(years)
+
+randomplace=random.choice(places)
+
+randomfeature=random.choice(feature)
+
+randomdl=random.choice(dl)
+
+randommoral=random.choice(moral)
+
+story= "In a small "+randomplace+" town, " +randomyears+", a small business owner owed a large sum of money to a loan-shark. The loan-shark was a "+randomfeature+" looking guy that just so happened to fancy the business owner daughter."+"He decided to offer the businessman a"+ randomdl+" that would completely wipe out the debt he owed him."+" However the catch was that we would only wipe out the debt if he could marry the businessman daughter." +"Needless to say, this proposal was met with a look of disgust."+"The loan-shark said that he would place two pebbles into a bag, one white and one black."+"The daughter would then have to reach into the bag and pick out a pebble. If it was black, the debt would be wiped, but the loan-shark would then marry her. If it was white, the debt would also be wiped, but the daughter would not have to marry the loan-shark."+"Standing on a pebble-strewn path in the businessman’s garden, the loan-shark bent over and picked up two pebbles."+"Whilst he was picking them up, the daughter noticed that he would picked up two black pebbles and placed them both into the bag."+"He then asked the daughter to reach into the bag and pick one."+"He then asked the daughter to reach into the bag and pick one."+"The clever daughter knowing drew out a pebble from the bag, and before looking at it accidentally dropped it into the midst of the other pebbles. She said to the loan-shark;"+"“Oh, how clumsy of me. Never mind, if you look into the bag for the one that is left, you will be able to tell which pebble I picked.”"+"The pebble left in the bag is obviously black, and seeing as the loan-shark did not want to be exposed, he had to play along as if the pebble the daughter dropped was white, and clear her father debt."
+
+print(story)
+
+moral="It’s always possible to overcome a tough situation "+randommoral+" and not give in to the only options you think you have to pick from."
+
+print("MORAL-:")
+print(moral)
